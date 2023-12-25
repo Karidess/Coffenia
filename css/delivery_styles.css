@@ -1,0 +1,225 @@
+.delivery {
+     background: url('../img/fonglav2.png');
+     background-attachment: scroll;
+     background-repeat: repeat;
+     animation: slide 60s linear infinite;
+     
+}
+
+@keyframes slide {
+     0% {
+          background-position: 0% 0%;
+     }
+
+     50% {
+          background-position: 100% 0%;
+     }
+
+     100% {
+          background-position: 0% 0%;
+     }
+}
+
+.background-delivery {
+     background: url('../img/zernaniz.png') bottom left repeat-x;
+     padding-bottom: 400px;
+     
+}
+
+.delivery__title-text {
+     background: linear-gradient(rgb(255, 255, 255), #9198e500);
+     color: rgb(73, 33, 33);
+}
+
+.delivery__title-text h2 {
+     padding-top: 120px;
+     text-align: center;
+     font-family: 'Cormorant Infant';
+     font-size: 50px;
+     padding-bottom: 30px;
+}
+
+.delivery__title-text p {
+     margin: auto;
+     font-size: 20px;
+     max-width: 500px;
+     padding-bottom: 30px;
+}
+
+.delivery-contenier {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 20px;
+}
+
+.pos {
+     margin-right: 30px;
+     border-right: 1px solid rgb(158, 193, 213);
+     padding-right: 40px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.pos-list p {
+     padding-top: 10px;
+     font-size: 15px;
+}
+
+.delivery-div{
+     padding: 40px 40px 20px 40px;
+     background-color: aliceblue;
+     display: flex;
+     border-radius: 20px;
+}
+
+.delivery-contenier input, .delivery-contenier select {
+     padding: 10px 10px;
+     margin: 10px 0 10px 0;
+     width: 200px;
+     font-size: 15px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     border: 0;    
+}
+
+.delivery-contenier input::placeholder { 
+     color: rgb(196, 209, 219); 
+     font-size: 14px;
+}
+
+.delivery-contenier select {
+     font-size: 14px;
+     width: 220px;
+}
+
+.delivery_input {
+     display: flex;
+     flex-direction: column;
+     padding: 10px 0;
+}
+
+.delivery-button {
+     display: flex;
+     justify-content: center;
+}
+
+.delivery-button button {
+     background-color: rgb(179, 210, 228);
+     border: 0;
+     cursor: pointer;
+     padding: 10px;
+     border-radius: 10px;
+     color: rgba(47, 13, 13, 1);
+     font-size: 17px;
+     transition: 0.5s;
+     margin-top: 20px;
+}
+
+.delivery-button button:hover {
+     background-color: rgb(213, 232, 243);
+     color: rgb(107, 147, 170);
+}
+
+.pos-list__contenier {
+     width: 100%;
+     max-height: 300px;
+     overflow-x: hidden;
+     overflow-y: auto;
+     padding-right: 10px;
+}
+
+.pos-list__contenier::-webkit-scrollbar {
+	width: 0.5rem;        
+ }
+ 
+ .pos-list__contenier::-webkit-scrollbar-track {
+	background: rgba(83, 84, 135, 0.132);      
+ }
+
+.pos-list__contenier::-webkit-scrollbar-thumb {
+     background-color: #537283;
+     border-radius: 0.5rem;
+}
+
+.pos-list__unit {
+     display: flex;
+     width: 95%;
+     border-radius: 10%;
+     background: white;
+     margin: 10px 0;
+     padding: 5px;
+}
+
+.pos-list__product-info {
+     display: flex;
+     flex-direction: column;
+}
+
+.list-pos__img {
+     width: 70px;
+}
+
+.product-info__title-text {
+     font-size: 14px;
+     margin-top: 5px;
+}
+
+.product-info__sale-and-quar {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+}
+
+.product__interactions {
+     margin-left: 30px;
+     justify-content: center;
+     align-items: center;
+}
+
+.product-sale p {
+     font-size: 10px;
+     color: rgba(109, 127, 146, 1);
+     margin-top: 10px;
+}
+
+.product-sale h4 {
+     color: rgba(102, 39, 25, 1);
+     font-size: 14px;
+}
+
+.plus-and-minus {
+     display: flex;
+     justify-content: space-between;
+     padding: 5px 10px;
+}
+
+.plus-and-minus p {
+     cursor: pointer;
+}
+
+.quar {
+     margin: 0 5px;
+     cursor: default;
+}
+
+.button-del button {
+     background: rgba(192, 206, 221, 1);
+     border: 0;
+     border-radius: 10px;
+     font-size: 14px;
+     cursor: pointer;
+}
+
+.itog-sale {
+     padding: 5px 10px;
+     background: white;
+     border-radius: 5px;
+     margin: 20px 0;
+}
+
+.itog-sale span {
+     font-weight: bold;
+}

@@ -1,0 +1,466 @@
+@media (max-width: 650px) {
+
+     .rec-background { padding: 20px; }
+     .rec-contenier { padding: 10px; }
+     .like-and-comm { font-size: 15px; }
+
+     .base-com-icon {
+          height: 22px;
+          width: 22px;
+     }
+
+     .base-like-icon {
+          height: 20px;
+          width: 20px;
+     }
+
+     .base-izbra-icon {
+          width: 35px;
+          height: 35px;
+     }
+
+     .rec-contenier__content { font-size: 14px; }
+     .rec-contenier__title-text { font-size: 22px; }
+     .rec-contenier__content { margin-top: 60px; }
+     
+     .rec-contenier__content p {
+          font-size: 18px;
+          margin-top: 20px;
+     }
+
+     .rec-contenier__content h2 { font-size: 20px; }
+
+     .rec-contenier__info-creator {
+          margin: 10px 0 5px 30px;
+          font-size: 12px;
+     }
+
+
+
+
+     .filtr-contenier {
+          padding: 5px;
+          margin: 0;
+          flex-direction: column;
+     }
+     
+     .filtr-sort {
+          margin-bottom: 15px;
+          flex-wrap: wrap;
+          order: 2;
+          padding: 0 20px;
+     }
+     
+     .filtr-sort h3 {
+          font-size: 16px;
+          margin-bottom: 10px;
+     }
+     
+     .filtr-sort p {
+          font-size: 14px;
+          margin-left: 0;
+          padding: 5px;
+     }
+     
+     .filtr-search {
+          margin: 20px auto;
+          order: 1;
+     }
+     
+     .filtr-search input {
+          font-size: 15px;
+     }
+     
+     .list-posts li {
+          align-items: center;
+          width: 100%;
+     }
+
+
+
+     .unit-post {
+          border-radius: 20px;
+          width: 100%;
+          margin: 20px auto;
+     }
+     
+     
+     .unit-post__header {
+          border-radius: 20px 20px 0 0;
+          background-size: 15em;
+          padding: 5px;
+     }
+     
+     .unit-post__header-like-and-com { padding: 5px 5px 1px 5px; }
+     
+     .header-like-and-comm { font-size: 14px; }
+     
+     .like-icon, .com-icon {
+          height: 15px;
+          width: 15px;
+          margin-right: 5px;
+          margin-left: 10px;
+     }
+     
+     .com-icon {
+          width: 18px;
+          height: 18px;
+     }
+     
+     
+     .izbra-icon {
+          height: 20px;
+          width: 20px;
+     }
+     
+     .unit-post__title-text {
+          font-size: 22px;
+          margin: 50px 0 20px 10px;
+     }
+     
+     .unit-post__footer {
+          padding: 20px 10px;
+          border-radius: 0 0 20px 20px;
+     }
+     
+     .unit-post__text {
+          font-size: 18px;
+          margin-bottom: 20px;
+     }
+     
+     .unit-post__info-creator { font-size: 14px; }
+
+
+     .list-numbering {
+          background-size: 120em;
+          padding-bottom: 300px;
+     }
+     
+     .numbering ul {
+          display: flex;
+          align-items: center;
+     }
+     
+     .afk-li, .active-li {
+          align-items: center;
+          margin: 5px;
+          width: 35px;
+          height: 35px;
+     }
+     
+     
+     .numbering p { font-size: 20px; }
+     
+
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+
+     .rec-background { padding: 20px; }
+     .rec-contenier { padding: 20px; }
+     .like-and-comm { font-size: 15px; }
+
+     .base-com-icon {
+          height: 22px;
+          width: 22px;
+     }
+
+     .base-like-icon {
+          height: 20px;
+          width: 20px;
+     }
+
+     .base-izbra-icon {
+          width: 35px;
+          height: 35px;
+     }
+
+     .rec-contenier__content { font-size: 16px; }
+     .rec-contenier__title-text { font-size: 24px; }
+     .rec-contenier__content { margin-top: 120px; }
+     
+     .rec-contenier__content p {
+          font-size: 18px;
+          margin-top: 30px;
+     }
+
+     .rec-contenier__content h2 { font-size: 20px; }
+
+     .rec-contenier__info-creator {
+          margin: 20px 0 10px 30px;
+          font-size: 12px;
+     }
+
+
+
+
+
+     .filtr-contenier {
+          padding: 5px;
+          margin: 0;
+          align-items: center;
+     }
+     
+     .filtr-sort {
+          flex-wrap: wrap;
+          align-items: center;
+          padding: 0 20px;
+     }
+     
+     .filtr-sort h3 {
+          font-size: 16px;
+     }
+     
+     .filtr-sort p {
+          font-size: 14px;
+          margin-left: 0;
+          padding: 5px;
+     }
+     
+     .filtr-search {
+          margin: 20px auto;
+          width: 40%;
+     }
+     
+     .filtr-search input {
+          font-size: 15px;
+     }
+     
+     .list-posts li {
+          align-items: center;
+          justify-content: center;
+          width: 29%;
+          margin: 10px 10px;
+     }
+
+
+
+     .unit-post {
+          border-radius: 20px;
+          margin: 20px auto;
+     }
+     
+     
+     .unit-post__header {
+          border-radius: 20px 20px 0 0;
+          background-size: 15em;
+          padding: 5px;
+     }
+     
+     .unit-post__header-like-and-com { padding: 5px 5px 1px 5px; }
+     
+     .header-like-and-comm { font-size: 14px; }
+     
+     .like-icon, .com-icon {
+          height: 15px;
+          width: 15px;
+          margin-right: 5px;
+          margin-left: 10px;
+     }
+     
+     .com-icon {
+          width: 18px;
+          height: 18px;
+     }
+     
+     
+     .izbra-icon {
+          height: 20px;
+          width: 20px;
+     }
+     
+     .unit-post__title-text {
+          font-size: 22px;
+          margin: 50px 0 20px 10px;
+     }
+     
+     .unit-post__footer {
+          padding: 20px 10px;
+          border-radius: 0 0 20px 20px;
+     }
+     
+     .unit-post__text {
+          font-size: 18px;
+          margin-bottom: 20px;
+     }
+     
+     .unit-post__info-creator { font-size: 14px; }
+
+
+     .list-numbering {
+          background-size: 120em;
+          padding-bottom: 300px;
+     }
+     
+     .numbering ul {
+          display: flex;
+          align-items: center;
+     }
+     
+     .afk-li, .active-li {
+          align-items: center;
+          margin: 5px;
+          width: 35px;
+          height: 35px;
+     }
+     
+     
+     .numbering p { font-size: 20px; }
+
+}
+
+@media (max-width: 1230px) and (min-width: 1001px){
+     
+
+     .rec-background { padding: 20px; }
+     .rec-contenier { padding: 20px; }
+     .like-and-comm { font-size: 20px; }
+
+     .base-com-icon {
+          height: 24px;
+          width: 24px;
+     }
+
+     .base-like-icon {
+          height: 22px;
+          width: 22px;
+     }
+
+     .base-izbra-icon {
+          width: 35px;
+          height: 35px;
+     }
+
+     .rec-contenier__content { font-size: 20px; }
+     .rec-contenier__title-text { font-size: 28px; }
+     .rec-contenier__content { margin-top: 140px; }
+     
+     .rec-contenier__content p {
+          font-size: 22px;
+          margin-top: 20px;
+     }
+
+     .rec-contenier__content h2 { font-size: 28px; }
+
+     .rec-contenier__info-creator {
+          margin: 20px 0 10px 30px;
+          font-size: 16px;
+     }
+
+
+
+
+
+     .filtr-contenier {
+          padding: 5px;
+          margin: 0;
+          align-items: center;
+     }
+     
+     .filtr-sort {
+          flex-wrap: wrap;
+          align-items: center;
+          padding: 0 20px;
+     }
+     
+     .filtr-sort h3 {
+          font-size: 16px;
+     }
+     
+     .filtr-sort p {
+          font-size: 14px;
+          margin-left: 0;
+          padding: 5px;
+     }
+     
+     .filtr-search {
+          margin: 20px auto;
+          width: 40%;
+     }
+     
+     .filtr-search input {
+          font-size: 15px;
+     }
+     
+     .list-posts li {
+          align-items: center;
+          justify-content: center;
+          width: 29%;
+          margin: 10px 10px;
+     }
+
+
+
+     .unit-post {
+          border-radius: 20px;
+          margin: 20px auto;
+     }
+     
+     
+     .unit-post__header {
+          border-radius: 20px 20px 0 0;
+          background-size: 15em;
+          padding: 5px;
+     }
+     
+     .unit-post__header-like-and-com { padding: 5px 5px 1px 5px; }
+     
+     .header-like-and-comm { font-size: 14px; }
+     
+     .like-icon, .com-icon {
+          height: 15px;
+          width: 15px;
+          margin-right: 5px;
+          margin-left: 10px;
+     }
+     
+     .com-icon {
+          width: 18px;
+          height: 18px;
+     }
+     
+     
+     .izbra-icon {
+          height: 20px;
+          width: 20px;
+     }
+     
+     .unit-post__title-text {
+          font-size: 22px;
+          margin: 50px 0 20px 10px;
+     }
+     
+     .unit-post__footer {
+          padding: 20px 10px;
+          border-radius: 0 0 20px 20px;
+     }
+     
+     .unit-post__text {
+          font-size: 18px;
+          margin-bottom: 20px;
+     }
+     
+     .unit-post__info-creator { font-size: 14px; }
+
+
+     .list-numbering {
+          background-size: 120em;
+          padding-bottom: 300px;
+     }
+     
+     .numbering ul {
+          display: flex;
+          align-items: center;
+     }
+     
+     .afk-li, .active-li {
+          align-items: center;
+          margin: 5px;
+          width: 35px;
+          height: 35px;
+     }
+     
+     
+     .numbering p { font-size: 20px; }
+
+}

@@ -1,0 +1,746 @@
+<!DOCTYPE HTML>
+<html lang="en">
+     <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/itc-slider.css">
+     <link rel="stylesheet" href="css/menu_styles.css">
+     <link rel="stylesheet" href="css/base_styles.css">
+     <link rel="stylesheet" href="css/mobile_base.css">
+     <link rel="stylesheet" href="css/mobile_menu.css">
+     <link rel="stylesheet" href="css/reset.css">
+     <title>Coffenia</title>
+     </head>
+     <body>
+          <header>
+               <section class="header-main">
+                    <div class="header__logo-and-nav">
+                         <button id="button-nav" class="header__button-nav"> 
+                              <svg version="1.1" style="height: 80%" id="nav" class="icon-nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="preserve"><g><g><g><rect x="0" y="277.333" width="384" height="42.667"/><rect x="0" y="170.667" width="384" height="42.667"/><rect x="0" y="64" width="384" height="42.667"/></g></g></g></svg>
+                         </button>
+                         <a href="index.html"><img src="img/logo.png" class="logo"></a>
+                    </div>
+                    <div class="header-icons">
+                         <div class="search">
+                              <input type="text" class="search-text" placeholder="Введите текст для поиска">
+                              <button class="header__button-circle header__button-circle-search">
+                                   <svg version="1.1" style="height: 80%" id="search" class="icon-search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"><path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/></svg>
+                              </button>
+                         </div>
+                         <div class="profile-icon">
+                         <button id="button-profile" class="header__button-circle">
+                              <svg version="1.1" style="height: 80%" id="profile" class="icon-profile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 460.8 460.8" style="enable-background:new 0 0 460.8 460.8;" xml:space="preserve"><g><g><g><path d="M230.432,239.282c65.829,0,119.641-53.812,119.641-119.641C350.073,53.812,296.261,0,230.432,0 S110.792,53.812,110.792,119.641S164.604,239.282,230.432,239.282z"/><path d="M435.755,334.89c-3.135-7.837-7.314-15.151-12.016-21.943c-24.033-35.527-61.126-59.037-102.922-64.784 c-5.224-0.522-10.971,0.522-15.151,3.657c-21.943,16.196-48.065,24.555-75.233,24.555s-53.29-8.359-75.233-24.555 c-4.18-3.135-9.927-4.702-15.151-3.657c-41.796,5.747-79.412,29.257-102.922,64.784c-4.702,6.792-8.882,14.629-12.016,21.943 c-1.567,3.135-1.045,6.792,0.522,9.927c4.18,7.314,9.404,14.629,14.106,20.898c7.314,9.927,15.151,18.808,24.033,27.167 c7.314,7.314,15.673,14.106,24.033,20.898c41.273,30.825,90.906,47.02,142.106,47.02s100.833-16.196,142.106-47.02 c8.359-6.269,16.718-13.584,24.033-20.898c8.359-8.359,16.718-17.241,24.033-27.167c5.224-6.792,9.927-13.584,14.106-20.898 C436.8,341.682,437.322,338.024,435.755,334.89z"/></g></g></g></svg>
+                         </button>
+                         </div>
+                         <button class="header__button-circle">
+                              <a href="delivery.html"><svg version="1.1" style="height: 80%" id="corzina" class="icon-corzina" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 64 64"><path d="M46,33.486V48a2,2,0,1,1-4,0V33.486H34V48a2,2,0,1,1-4,0V33.486H22V48a2,2,0,1,1-4,0V33.486H8.25L12,56H52l3.75-22.514Z"/><path d="M18.221,5.195h2a2,2,0,0,1,2,2V30.2a3,3,0,0,1-3,3h0a3,3,0,0,1-3-3V7.195a2,2,0,0,1,2-2Z" transform="translate(19.214 -7.969) rotate(45.018)"/><path d="M58,23.98H55.888a4.493,4.493,0,0,1-6.514,6.186L43.193,23.98H20.807l-6.182,6.186A4.492,4.492,0,0,1,8.113,23.98H6a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2H58a2,2,0,0,0,2-2v-4A2,2,0,0,0,58,23.98Z"/><path d="M44.777,5.195h0a3,3,0,0,1,3,3V31.2a2,2,0,0,1-2,2h-2a2,2,0,0,1-2-2V8.195A3,3,0,0,1,44.777,5.195Z" transform="translate(90.011 1.098) rotate(134.982)"/></svg></a>
+                         </button>
+                    </div>
+               </section>
+          </header>
+          <section id="modal" class="modal">
+               <div class="modal-auto_container">
+                    <div class="modal-auto_title">
+                         <h3>Авторизация</h3>
+                         <svg id="krest" class="modal-krestik">
+                              <use xlink:href="sprite.svg#krest"></use>
+                         </svg>
+                    </div>
+                    <div class="modal-auto_form">
+                         <form action="personal.html">
+                              <div class="modal-auto_input">
+                                   <label>Телефон или почта</label>
+                                   <input type="text" placeholder="Введите телефон или почту">
+                              </div>
+                              <div class="modal-auto_input">
+                                   <label>Пароль</label>
+                                   <input type="password" placeholder="Введите пароль">
+                              </div>
+                              <div class="modal-text-one">
+                              <a class="modal-text" href="#">Забыли пароль?</a>
+                                   <div class="modal-text-two">
+                                        <p>Нет аккаунта?</p><a class="modal-text-two" href="registration.html">Создайте</a>
+                                   </div>
+                              </div>
+                              <div class="modal-button">
+                                   <button>Войти в аккаунт</button>
+                              </div>
+                              
+                         </form>
+                    </div>
+               </div>
+          </section>
+          <nav id="navigation" class="navigation">
+               <div class="navigation__contenier">
+                    <h2 class="navigation__title-text">Навигация</h2>
+                    <ul>
+                         <li class="li-title-index"><a href="index.html"><h3>Главная страница</h3></a>
+                              <ul>
+                                   <li class="li-element"><a class="nav-element" href="index.html#about_us">О нас</a></li>
+                                   <li class="li-element"><a class="nav-element" href="index.html#menu">Меню</a></li>
+                                   <li class="li-element"><a class="nav-element" href="index.html#delivery">Доставка</a></li>
+                                   <li class="li-element"><a class="nav-element" href="index.html#connection">Связь с нами</a></li>
+                              </ul>
+                         </li>
+                         <li class="li-title-menu"><a href="menu.html"><h3>Меню</h3></a>
+                              <ul>
+                                   <li class="li-element"><a class="nav-element" href="#cofe">Кофе</a></li>
+                                   <li class="li-element"><a class="nav-element" href="#tea">Чай</a></li>
+                                   <li class="li-element"><a class="nav-element" href="#bread">Булочки</a></li>
+                              </ul></li>
+                         <li><a href="blog.html"><h3>Блог</h3></a></li>
+                         <li class="close-nav-element"><a href="personal.html"><h3>Личный кабинет</h3></a></li>
+                         <li class="close-nav-element"><a href="delivery.html"><h3>Корзина</h3></a></li>
+                    </ul>
+                    <div class="icons-nav">
+                         <svg class="icon-vk">
+                              <use xlink:href="sprite.svg#telegram"></use>
+                         </svg>
+                         <svg class="icon-vk">
+                              <use xlink:href="sprite.svg#vk"></use>
+                         </svg>
+                         <svg class="icon-vk">
+                              <use xlink:href="sprite.svg#odnoclas"></use>
+                         </svg>
+                    </div>
+               </div>
+               <!--иконки-->
+          </nav>
+          <div class="mini-nav"> 
+               <p><a href="index.html">Главная</a> > <span>Меню<span></p> 
+          </div>
+          <section class="news">
+               <div class="news__container">
+                    <div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="true" data-interval="5000">
+                         <div class="itc-slider__wrapper">
+                             <div class="itc-slider__items">
+                                 <div class="itc-slider__item">
+                                     <img src="img/list_1.png">
+                                 </div>
+                                 <div class="itc-slider__item">
+                                     <img src="img/list_1.png">
+                                 </div>
+                                 <div class="itc-slider__item">
+                                     <img src="img/list_1.png">
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="itc-slider__btn itc-slider__btn_prev"></div>
+                         <div class="itc-slider__btn itc-slider__btn_next"></div>
+                         <ol class="itc-slider__indicators">
+                             <li class="itc-slider__indicator" data-slide-to="0"></li>
+                             <li class="itc-slider__indicator" data-slide-to="1"></li>
+                             <li class="itc-slider__indicator" data-slide-to="2"></li>
+                         </ol>
+                     </div>
+               </div>
+          </section>
+
+          <section class="filtr">
+               <div class="filtr-contenier">
+                    <div class="filtr-sort">
+                         <div class="filtr-sort__contenier">
+                              <h3>Сортировать по</h3>
+                              <p>Количеству комментариев</p>
+                              <p>Цене</p>
+                              <p>Количеству лайков</p>
+                              <p>Популярности</p>
+                         </div>
+                    </div>
+                    <div class="filtr-search">
+                         <input type="text" class="filtr-search-text" placeholder="Введите текст для поиска">
+                         <button class="filtr-search-button">
+                              <svg version="1.1" class="svg-search" style="height: 80%" id="search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"><path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/></svg>
+                         </button>
+                    </div>
+               </div>
+               <div class="tags"><p>Рекомендуем</p><p>Новинки</p><p>Наборы</p><p>Заканчивается</p><p>Часто берут</p></div>
+          </section>
+
+          <section class="chapter">
+               <div class="chapter__contenier">
+                    <div class="background-title-text">
+                         <div class="chapter__title-text" id="cofe">
+                              <h2>Кофе</h2>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="filtr-coffee">
+                    <div class="filtr-coffee__contenier">
+                         <div class="one-contenier">
+                              <select id="select">
+                                   <option value=”0”>Степень обжарки</option>
+                                   <option value=”1”>Светлая</option>
+                                   <option value=”2”>Средняя</option>
+                                   <option value=”3”>Тёмная</option>
+                              </select>
+
+                              <select id="select">
+                                   <option value=”0”>Вкус кофе</option>
+                                   <option value=”1”>Ягоды</option>
+                                   <option value=”2”>Шоколад</option>
+                                   <option value=”3”>Фрукты</option>
+                                   <option value=”4”>Цветы</option>
+                              </select>
+                         </div>
+                         <div class="one-contenier">
+                              <select id="select">
+                                   <option value=”0”>Плотность</option>
+                                   <option value=”1”>Низкая</option>
+                                   <option value=”2”>Средняя</option>
+                                   <option value=”3”>Высокая</option>
+                              </select>
+
+                              <select id="select">
+                                   <option value=”0”>Кислотность</option>
+                                   <option value=”1”>Низкая</option>
+                                   <option value=”2”>Средняя</option>
+                                   <option value=”3”>Высокая</option>
+                              </select>
+                         </div>
+                         <div class="one-contenier">
+                              <select id="select">
+                                   <option value=”0”>Степень обжарки</option>
+                                   <option value=”1”>Картой у курьера</option>
+                                   <option value=”2”>Наличными у курьера</option>
+                              </select>
+
+                              <button class="filtr-button">Сбросить фильтры</button>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="chapter__contenier">
+                    <div class="chapter__product-list">
+                         <ul>
+                              <li>
+                                   <div class="chapter__product">
+                                        <a class="chapter-link" href="cart_product.html">
+                                             <h3 class="product__name">ПУЭР ЮННАНЬ</h3>
+                                             <img src="img/product/coffee_product_1.png" class="product__img">
+                                        </a>
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">319 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button href="/">Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <a class="chapter-link" href="cart_product.html">
+                                             <h3 class="product__name">ПУЭР ЮННАНЬ</h3>
+                                             <img src="img/product/coffee_product_1.png" class="product__img">
+                                        </a>
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">319 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button href="/">Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <a class="chapter-link" href="cart_product.html">
+                                             <h3 class="product__name">ПУЭР ЮННАНЬ</h3>
+                                             <img src="img/product/coffee_product_1.png" class="product__img">
+                                        </a>
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">319 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button href="/">Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <a class="chapter-link" href="cart_product.html">
+                                             <h3 class="product__name">ПУЭР ЮННАНЬ</h3>
+                                             <img src="img/product/coffee_product_1.png" class="product__img">
+                                        </a>
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">319 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button href="/">Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <a class="chapter-link" href="cart_product.html">
+                                             <h3 class="product__name">ПУЭР ЮННАНЬ</h3>
+                                             <img src="img/product/coffee_product_1.png" class="product__img">
+                                        </a>
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">319 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button href="/">Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <a class="chapter-link" href="cart_product.html">
+                                             <h3 class="product__name">ПУЭР ЮННАНЬ</h3>
+                                             <img src="img/product/coffee_product_1.png" class="product__img">
+                                        </a>
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">319 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button href="/">Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <a class="chapter-link" href="cart_product.html">
+                                             <h3 class="product__name">ПУЭР ЮННАНЬ</h3>
+                                             <img src="img/product/coffee_product_1.png" class="product__img">
+                                        </a>
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">319 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button href="/">Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <a class="chapter-link" href="cart_product.html">
+                                             <h3 class="product__name">ПУЭР ЮННАНЬ</h3>
+                                             <img src="img/product/coffee_product_1.png" class="product__img">
+                                        </a>
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">319 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button href="/">Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <a class="chapter-link" href="cart_product.html">
+                                             <h3 class="product__name">ПУЭР ЮННАНЬ</h3>
+                                             <img src="img/product/coffee_product_1.png" class="product__img">
+                                        </a>
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">319 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button href="/">Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+
+               <div class="chapter__contenier">
+                    <div class="background-title-text">
+                         <div class="chapter__title-text" id="tea">
+                              <h2>Чай</h2>
+                         </div>
+                    </div>
+                    <div class="chapter__product-list">
+                         <ul>
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">ЛЕСНЫЕ ЯГОДЫ</h3>
+                                        <img src="img/product/tea_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">119 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">ЛЕСНЫЕ ЯГОДЫ</h3>
+                                        <img src="img/product/tea_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">119 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">ЛЕСНЫЕ ЯГОДЫ</h3>
+                                        <img src="img/product/tea_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">119 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">ЛЕСНЫЕ ЯГОДЫ</h3>
+                                        <img src="img/product/tea_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">119 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">ЛЕСНЫЕ ЯГОДЫ</h3>
+                                        <img src="img/product/tea_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">119 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">ЛЕСНЫЕ ЯГОДЫ</h3>
+                                        <img src="img/product/tea_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">119 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">ЛЕСНЫЕ ЯГОДЫ</h3>
+                                        <img src="img/product/tea_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">119 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">ЛЕСНЫЕ ЯГОДЫ</h3>
+                                        <img src="img/product/tea_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">119 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                         </ul>
+                    </div>
+               </div>
+
+               <div class="chapter__contenier">
+                    <div class="background-title-text">
+                         <div class="chapter__title-text" id="bread">
+                              <h2>Хлебобулочные изделия</h2>
+                         </div>
+                    </div>
+                    <div class="chapter__product-list">
+                         <ul>
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+
+                              <li>
+                                   <div class="chapter__product">
+                                        <h3 class="product__name">БУЛКА С МАКОМ</h3>
+                                        <img src="img/product/bread_product_1.png" class="product__img">
+                                        <div class="product__info">
+                                             <div class="product__sale">
+                                                  <p class="product-mass">120г</p>
+                                                  <p class="product-price">169 ₽</p>
+                                             </div>
+                                             <div class="product_button">
+                                                  <button>Купить</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </li>
+                              
+                         </ul>
+                    </div>
+               </div>
+          </section>
+
+          <footer>
+               <section class="footer-main">
+                    <div class="footer-main__container">
+                         <h3 class="footer-main__title-text">СВЯЗЬ С НАМИ</h3>
+                         <p>Телефон<br><b>+7 929 612 23 29</b></p>
+                         <p>Почта<br><b>Coffenia07@mail.ru</b></p>
+                         <div class="footer-icons">
+                              <svg class="footer-icon__element">
+                                   <use xlink:href="sprite.svg#telegram"></use>
+                              </svg>
+                              <svg class="footer-icon__element">
+                                   <use xlink:href="sprite.svg#vk"></use>
+                              </svg>
+                              <svg class="footer-icon__element">
+                                   <use xlink:href="sprite.svg#odnoclas"></use>
+                              </svg>
+                         </div>
+                    </div>
+                    <div class="footer-main__container">
+                         <h3 id="connection" class="footer-main__title-text">ГРАФИК РАБОТЫ</h3>
+                         <p>По будням<br><b>с 11:00 до 22:00</b></p>
+                         <p>По выходным<br><b>с 9:00 до 22:00</b></p>
+                    </div>
+                    <div class="footer-main__container">
+                         <h3 class="footer-main__title-text">АДРЕС</h3>
+                         <ul>
+                              <b><li>ул.Блохина, 23</li></b>
+                              <b><li>Большой проспект В.О., 16/14</li></b>
+                              <b><li>Невский проспект, 12</li></b>
+                              <b><li>Некрасова, 14А</li></b>
+                         </ul>
+                    </div>
+               </section>
+          </footer>
+     </body>
+     <script src="js/itc-slider.js" defer></script>
+     <script src="js/script.js"></script>
+</html>
+

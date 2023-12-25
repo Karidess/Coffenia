@@ -1,0 +1,342 @@
+.recommendations {
+     background: url('../img/cartfon.png');
+     height: auto;
+     
+}
+
+.rec-background {
+     padding: 40px;
+}
+
+.rec-contenier {
+     max-width: 1200px;
+     margin: auto;
+     border-radius: 15px;
+     padding: 35px 30px;
+     height: auto;
+     background: url('../img/cart_1.png') no-repeat,
+     rgb(44, 23, 23);
+     color: white;
+     background-size: 100%;
+     cursor: pointer;
+}
+
+.rec-contenier__header {
+     display: flex;
+     justify-content: space-between;
+     padding: 0 10px;
+     height: 50px;
+     align-items: flex-start;
+}
+
+.like-and-comm {
+     display: flex;
+     align-items: center;
+     font-size: 25px;
+}
+
+.like-and-comm p {
+     margin-left: 10px;
+}
+
+.rec-contenier__content {
+     margin-top: 230px;
+     display: flex;
+     flex-direction: column;
+     margin-left: 30px;
+}
+
+.rec-contenier__content p {
+     font-size: 25px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+.rec-contenier__content h2 {
+     font-size: 30px;
+     font-weight: bold;
+}
+
+.rec-contenier__info-creator {
+     display: flex;
+     margin-top: 50px;
+     margin-left: 30px;
+     font-size: 18px;
+}
+
+.rec-contenier__info-creator h4 {
+     margin-right: 20px;
+}
+
+.rec-contenier__info-creator p {
+     color: rgba(255, 255, 255, 0.667);
+}
+
+.base-like-icon, .base-com-icon {
+     fill: rgb(255, 255, 255);
+     height: 30px;
+     width: 30px;
+     margin-left: 10px;
+}
+
+.base-like-icon {
+     height: 25px;
+     width: 25px;
+}
+
+.base-izbra-icon {
+     fill: rgb(255, 255, 255);
+     height: 55px;
+     width: 55px;
+}
+
+.background-posts {
+     background: url('../img/article.png') repeat-x;
+}
+
+/*фильтр*/
+
+.filtr {
+     background: linear-gradient(0.25turn, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+
+.filtr-background {
+     max-width: 1200px;
+     margin: auto;
+}
+
+.filtr-contenier {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     padding: 20px;
+     width: 100%;
+     flex: 1;
+     margin: 0 20px;
+}
+
+.filtr-sort {
+     display: flex;
+     align-items: center;
+    
+}
+
+.filtr-sort h3 {
+     font-size: 20px;
+     color: rgba(47, 13, 13, 1);
+     margin-right: 20px;
+}
+
+.filtr-sort p {
+     font-size: 15px;
+     cursor: pointer;
+     transition: 0.5s;
+     margin-left: 20px;
+     color: rgba(252, 225, 220, 1);
+     background: rgba(80, 38, 43, 1);
+     padding: 8px 10px;
+     border-radius: 10px;
+     margin: 0 10px;
+}
+
+.filtr-sort p:hover {
+     color: rgb(255, 240, 237);
+     background: rgb(119, 66, 73);
+}
+
+.filtr-search {
+     display: flex;
+     align-items: end;
+     margin-right: 100px;
+}
+
+.filtr-search input {
+     border-radius: 5px 0 0 5px;
+     border: 0;
+     padding: 10px;
+     font-size: 15px;
+     background-color: rgba(255, 255, 255, 1);
+     margin: 0;
+}
+
+.filtr-search input::placeholder {
+     color: rgb(201, 201, 201);
+}
+
+.filtr-search-button {
+     border-radius: 0 5px 5px 0;
+     border: 0;
+     height: 41px;
+     width: 40px;
+     background: rgb(238, 247, 255);
+     cursor: pointer;
+     transition: 0.2s;
+}
+
+.filtr-search-button:hover {
+     background-color: rgb(255, 255, 255);
+}
+
+.svg-search {
+     fill: rgb(84, 107, 126);
+}
+
+
+.list-posts {
+     max-width: 1300px;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.list-posts ul {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.unit-post {
+     max-width: 280px;
+     border-radius: 30px;
+     margin: 30px 40px 30px 30px;
+     cursor: pointer;
+     transition: 0.5s;
+}
+
+.unit-post:hover {
+     transform: scale(110%);
+}
+
+.unit-post__header {
+     background: url('../img/cart_1.png');
+     background-size: 100%;
+     border-radius: 20px 20px 0 0;
+     padding: 10px;
+}
+
+.unit-post__header-like-and-com {
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     padding: 15px 10px 10px 10px;
+}
+
+.header-like-and-comm {
+     display: flex;
+     align-items: center;
+     font-size: 16px;
+     color: white;
+}
+
+.like-icon, .com-icon {
+     height: 16px;
+     width: 16px;
+     fill: aliceblue;
+     margin-right: 5px;
+     margin-left: 10px;
+}
+
+.com-icon {
+     width: 20px;
+     height: 20px;
+}
+
+
+
+.izbra-icon {
+     height: 25px;
+     width: 25px;
+     fill: white;
+}
+
+.unit-post__title-text {
+     font-size: 25px;
+     margin: 70px 0 20px 20px;
+     color: white;
+     height: 50px;
+}
+
+.unit-post__title-text h4 { color: rgb(255, 255, 255); }
+
+.unit-post__footer {
+     background-color: white;
+     padding: 20px 30px;
+     border-radius: 0 0 20px 20px;
+     color: rgba(47, 13, 13, 1);
+}
+
+.unit-post__text {
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+
+.unit-post__info-creator { display: flex; }
+
+.unit-post__info-creator p {
+     margin-left: 10px;
+     color: rgba(47, 13, 13, 0.67);
+}
+
+.list-numbering {
+     background: url('../img/zerna_niz.png') left bottom repeat-x;
+     padding-bottom: 500px;
+}
+
+.numbering {
+     display: flex;
+     justify-content: center;
+     padding-top: 20px;
+     padding-bottom: 40px;
+}
+
+.numbering ul {
+     display: flex;
+     align-items: center;
+}
+
+.afk-li, .active-li {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20%;
+     background: rgba(196, 212, 228, 1);
+     margin: 10px;
+     width: 45px;
+     height: 45px;
+     cursor: pointer;
+     transition: 0.5s;
+}
+
+.afk-li:hover {
+     background: rgb(203, 220, 238);
+     color: rgb(130, 85, 85);
+}
+
+.numbering p {
+     font-size: 25px;
+     padding: 10px;
+}
+
+
+
+.active-li {
+     background: rgb(71, 96, 119);
+     color: white;
+}
+
+
+.active-li:hover {
+     background: rgb(90, 124, 160);
+}
+
+.active-li p {
+     color: rgb(255, 254, 254);
+}
+
+.unit-post__header p, .rec-contenier h2, .rec-contenier p, .rec-contenier h4 {
+     color: rgb(255, 254, 254);
+}
+

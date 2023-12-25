@@ -1,0 +1,78 @@
+/*навигация*/
+
+.navigation {
+    left: -100%;
+    transition: 0.25s;
+    position: fixed;
+    max-height: 90%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 0 0 50px 0;
+    box-shadow: 0 35px 70px 1px rgba(46, 42, 69, 0.7);
+    z-index: 3;
+}
+
+.navigation__contenier {
+    background: url('../img/nebo.png') no-repeat, rgba(222, 232, 242, 1);
+    color: rgba(80, 24, 24, 1);
+    border-radius: 0 0 50px 0;
+    padding-bottom: 20px;
+}
+
+.navigation__title-text {
+    padding: 10px;
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+}
+
+.navigation h3 {
+    background: linear-gradient(0.25turn, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    padding: 20px 1.5em 20px 1.5em;
+    margin: 1px;
+    font-size: 25px;
+    z-index: 5;
+}
+
+.navigation h3:hover {
+     background: linear-gradient(0.25turn, rgb(240, 250, 255), rgb(191, 214, 235));
+     color: rgb(118, 72, 72);
+     cursor: pointer;
+}
+
+.li-element {
+     height: 0;
+     opacity: 0;
+     padding: 0;
+     transition: 0.5s;
+}
+
+.li-title-index:hover .li-element {
+     height: 25px;
+     opacity: 1;
+     padding: 10px 0 10px 3em;
+}
+
+.li-title-menu:hover .li-element {
+     height: 25px;
+     opacity: 1;
+     padding: 10px 0 10px 3em;
+}
+
+.nav-element { font-size: 21px; }
+
+.close-nav-element {
+     display: none;
+}
+
+.navigation a {
+     text-decoration: none;
+     color: rgba(80, 24, 24, 1);
+     transition: 0.1s;
+}
+
+.navigation a:hover {
+     color: rgb(171, 102, 102);
+     cursor: pointer;
+     font-size: 22px;
+}

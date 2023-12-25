@@ -1,0 +1,287 @@
+@import url('post_styles_commentaries.css');
+
+
+.picture-post {
+     background: url('../img/cartfon.png');
+     padding: 50px;
+     background-size: 100%;
+}
+
+.picture-contenier {
+     max-width: 1100px;
+     margin: auto;
+     border-radius: 20px;
+     background: url('../img/cart_1.png') no-repeat;
+     background-size: 100%;
+}
+
+.picture-header {
+     background-color: rgba(0, 0, 0, 0.429);
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     color: white;
+     padding: 30px 40px;
+     border-radius: 20px 20px 0 0;
+     padding-bottom: 250px;
+}
+
+.picture__creator-img {
+     width: 65px;
+     border-radius: 55px;
+     margin-top: 5px;
+}
+
+.info-creator {
+     display: flex;
+     align-items: center;
+}
+
+.info-creator__text {
+     margin-left: 10px;
+}
+
+.info-creator__text h4{
+     font-size: 25px;
+}
+
+.info-creator__text p {
+     margin-top: 7px;
+     color: rgb(189, 189, 189);
+}
+
+.picture-izbra-icon {
+     fill: rgb(255, 255, 255);
+     height: 55px;
+     width: 55px;
+}
+
+.picture-footer {
+     background-color: rgba(255, 255, 255, 0.903);
+     padding: 40px;
+     border-radius: 0 0 19px 19px;
+     display: flex;
+     justify-content: space-between;
+
+}
+
+.picture-footer h3 {
+     font-size: 30px;
+     margin-left: 20px;
+}
+
+.picture-like-and-com {
+     display: flex;
+     align-items: center;
+}
+
+.picture-com-icon, .picture-like-icon {
+     fill: rgb(0, 0, 0);
+     height: 30px;
+     width: 30px;
+     transition: 0.5s;
+     cursor: pointer;
+}
+
+.picture-like-icon {
+     height: 25px;
+     width: 25px;
+}
+
+.picture-like-icon:hover {
+     fill: rgb(192, 23, 37);
+}
+
+.picture-like-and-com p {
+     margin: 0 10px;
+     font-weight: bold;
+}
+
+/*содержание*/
+
+.background-title-text {
+     background: linear-gradient(0.25turn, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+     width: 100%;
+
+}
+
+.title-text {
+     font-size: 36px;
+     display: flex;
+     justify-self: center;
+     margin: auto;
+     max-width: 1200px;
+     padding: 15px 30px;
+}
+
+.title-text h2{
+     padding: 0 30px;
+}
+
+.content-background {
+     background: url('../img/content-fon.png');
+}
+
+.content__text {
+     max-width: 1200px;
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+}
+
+.content__text-p {
+     margin: 30px 30px  0 30px;
+     font-size: 20px;
+}
+
+.content__text-p p {
+     margin-bottom: 30px;
+}
+
+
+.content__title-text {
+     max-width: 1200px;
+     display: flex;
+     margin: auto;
+     padding: 15px;
+     font-size: 25px;
+}
+
+.content__title-text h3 {
+     padding-left: 25px;
+     
+}
+
+.content__background-title-text {
+     background: linear-gradient(0.25turn, rgb(241, 249, 255), rgba(255, 255, 255, 0));
+     width: 100%;
+}
+
+.text-img {
+     max-width: 1200px;
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     padding: 20px;
+}
+
+.text-img img {
+     height: 350px;
+}
+
+/*похожие статьи*/
+
+.similar-article {
+     background: url('../img/article.png') repeat-x;
+     
+}
+
+.similar-contenier {
+     max-width: 1200px;
+     margin: auto;
+     display: flex;
+     padding: 40px;
+     justify-content: center;
+     align-items: center;
+}
+
+.similar-contenier ul {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.unit-post {
+     max-width: 280px;
+     border-radius: 30px;
+     margin: 30px 40px 30px 0;
+     cursor: pointer;
+     transition: 0.5s;
+}
+
+.unit-post:hover {
+     transform: scale(110%);
+}
+
+.unit-post__header {
+     background: url('../img/cart_1.png');
+     background-size: 100%;
+     border-radius: 20px 20px 0 0;
+     padding: 10px;
+}
+
+.unit-post__header p, .picture-header h4 {
+     color: rgb(255, 254, 254);
+}
+
+.unit-post__header-like-and-com {
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     padding: 15px 10px 10px 10px;
+}
+
+.header-like-and-comm {
+     display: flex;
+     align-items: center;
+     font-size: 16px;
+     color: white;
+}
+
+.like-icon, .com-icon {
+     height: 16px;
+     width: 16px;
+     fill: aliceblue;
+     margin-right: 5px;
+     margin-left: 10px;
+}
+
+.com-icon {
+     width: 20px;
+     height: 20px;
+}
+
+.header-like-and-comm img {
+     height: 15px;
+     margin-right: 5px;
+     margin-left: 10px;
+}
+
+
+
+.izbra-icon {
+     height: 25px;
+     width: 25px;
+     fill: white;
+}
+
+.unit-post__title-text {
+     color: white;
+     font-size: 25px;
+     margin: 70px 0 10px 30px;
+}
+
+.unit-post__title-text h4 { color: white; }
+
+.unit-post__footer {
+     background-color: white;
+     padding: 20px 30px;
+     border-radius: 0 0 20px 20px;
+     color: rgba(47, 13, 13, 1);
+}
+
+.unit-post__text {
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+
+.unit-post__info-creator {
+     display: flex;
+}
+
+.unit-post__info-creator p {
+     margin-left: 10px;
+     color: rgba(47, 13, 13, 0.67);
+}

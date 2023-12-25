@@ -1,0 +1,192 @@
+/*секция комментариев*/
+
+.commentaries {
+     background: url('../img/zerna_niz.png') bottom left repeat-x;
+     padding-bottom: 600px;
+}
+
+.container-add-com {
+	margin: auto;
+	max-width: 1200px;
+     padding: 30px 0;
+}
+
+.add-com {
+     display: flex;
+	flex-direction: column;
+     margin: 0 100px 0 30px;
+}
+
+.add-com textarea {
+     resize: none;
+     background: rgb(238, 243, 248);
+     height: 120px;
+     margin-bottom: 20px;
+     padding: 15px;
+     border-radius: 10px;
+
+}
+
+.add-com textarea::placeholder { color: rgba(150, 169, 188, 1); }
+
+.add-com button {
+     background: rgba(196, 212, 228, 1);
+     color: rgba(47, 13, 13, 1);
+     border-radius: 10px;
+     font-size: 15px;
+     padding: 16px;
+     width: 250px;
+     border: 0;
+     cursor: pointer;
+     transition: 0.2s;
+}
+
+.add-com button:hover {
+     background: rgb(203, 218, 232);
+     color: rgb(67, 24, 24);
+}
+
+
+/*ещё комментарии*/
+
+.list-com {
+     margin: auto;
+     max-width: 1200px;
+     width: 100%;
+}
+
+.unit-com {
+     margin: 25px 120px 5px 30px;
+     display: flex;
+     flex-direction: column;
+     padding-top: 10px;
+     border-top: rgb(192, 208, 223) 1px solid;
+}
+
+.unit-com:first-child {
+     border-bottom: 0;
+}
+
+.first-com {
+     display: flex;
+     align-items: flex-start;
+}
+
+.unit-com__img {
+     width: 65px;
+     border-radius: 55px;
+     margin-top: 5px;
+}
+
+.contenier-com {
+     margin-left: 15px;
+}
+
+.unit-com__title-text {
+     display: flex;
+     align-items: center;
+     margin-top: 5px;
+     margin-bottom: 10px;
+}
+
+.unit-com__title-text p {
+     color: rgba(47, 13, 13, 0.41);
+     font-size: 18px;
+}
+
+.unit-com__title-text h4 {
+     font-size: 25px;
+     margin-right: 10px;
+}
+
+.unit-com__text { 
+     font-size: 20px; 
+     margin-bottom: 10px;
+}
+
+.like-com {
+     display: flex;
+     align-items: flex-end;
+     margin-top: 20px;
+     width: 100%;
+}
+
+.like-com img { width: 20px; }
+
+.like-com p { font-size: 18px; }
+
+.dislike-and-like {
+     display: flex;
+     width: 53px;
+     justify-content: space-between;
+}
+
+.dislike-and-like img {
+     cursor: pointer;
+}
+
+.like-quantity {
+     margin-left: 40px;
+     margin-right: 20px;
+}
+
+.answer-link {
+     cursor: pointer;
+     color: rgb(65, 39, 34);
+}
+
+.answer-link:hover {
+     color: rgb(108, 69, 61);
+}
+
+.answer-com {
+     display: flex;
+     align-items: flex-start;
+     margin-top: 30px;
+     margin-left: 120px;
+     width: 100%;
+}
+
+.answer-add-com {
+     padding: 30px 0;
+     display: flex;
+	flex-direction: column;
+}
+
+.answer-add-com textarea {
+     resize: none;
+     background: rgb(238, 243, 248);
+     height: 70px;
+     margin-bottom: 20px;
+     padding: 15px;
+     border-radius: 10px;
+
+}
+
+.answer-add-com textarea::placeholder {
+     color: rgba(150, 169, 188, 1);
+}
+
+.answer-add-com button {
+     background: rgb(168, 188, 209);
+     color: rgba(47, 13, 13, 1);
+     border-radius: 10px;
+     font-size: 15px;
+     padding: 10px;
+     width: 200px;
+     border: 0;
+     cursor: pointer;
+     transition: 0.2s;
+}
+
+.answer-add-com button:hover {
+     background: rgb(202, 217, 232);
+     color: rgb(67, 24, 24);
+}
+
+.answer-add-com-contenier {
+     margin-left: 130px;
+     opacity: 0;
+     height: 0;
+     transition: 0.5s;
+}

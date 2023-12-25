@@ -1,0 +1,148 @@
+header {
+     box-shadow: 0 10px 70px 10px rgb(255, 255, 255);
+}
+
+
+.welcome {
+     background: url('../img/fonglav2.png');
+     background-attachment: scroll;
+     background-repeat: repeat;
+     animation: slide 30s linear infinite;
+}
+
+@keyframes slide {
+     0% {
+          background-position: 0% 0%;
+     }
+
+     50% {
+          background-position: 100% 0%;
+     }
+
+     100% {
+          background-position: 0% 0%;
+     }
+}
+
+.welcome-backgroud {
+     background: url('../img/zerna_niz.png') bottom -5% left;
+     background-attachment: scroll;
+     background-repeat: repeat-x;
+     margin: auto;
+}
+
+.welcome-main  {
+     display: flex;
+     max-width: 1400px;
+     height: 900px;
+     margin: auto;
+     background: url('../img/chashka.png') top right;
+     background-repeat: no-repeat;
+}
+
+.welcome-main__text {
+     margin: 16em 0 16em 5em;
+     max-width: 700px;
+     color: #2F0D0D;
+}
+
+.welcome-main__paragraph {
+     font-size: 25px;
+     margin-top: 20px;
+     color: #4C0909;
+}
+
+.welcome-main__title-text {
+     font-family: 'Cormorant Infant';
+     font-size: 50px;
+}
+
+/*о нас */
+
+.about_us {
+     background: url('../img/fonzerna.png');
+}
+
+.about_us-main {
+     padding-bottom: 40px;
+}
+
+.about_us-main__title-text {
+     color: rgba(255, 246, 246, 1);
+     font-size: 40px;
+     padding: 3em 0 1.5em 0;
+}
+
+.about_us-main__paragraph {
+     color: rgba(255, 246, 246, 1);
+     font-size: 30px;
+     padding: 0 4em 2em 0;
+     max-width: 800px;
+}
+
+/*общие стили для секций*/
+
+.about_us-main, .menu-main, .delivery-main {
+     max-width: 1400px;
+     margin: auto;
+     padding-left: 9em;
+     padding-top: 30px;
+}
+
+
+/*меню*/
+
+.menu {
+     background: url('../img/zernaverh.png') top left repeat-x;
+}
+
+.menu-main__title-text, .delivery-main__title-text {
+     color: rgba(76, 9, 9, 1);
+     font-size: 40px;
+     margin: 10em 0 1.5em 0;
+}
+
+.delivery-main__title-text {
+     margin: 0 0 1.5em 0;
+     padding-top: 2.5em;
+}
+
+.menu-main__title-text {
+     margin-top: 5em;
+     padding-top: 5em;
+}
+
+.menu-main__paragraph, .delivery-main__paragraph {
+     color: rgba(76, 9, 9, 1);
+     font-size: 30px;
+     padding: 0 4em 4em 0;
+     max-width: 800px;
+}
+
+/*лента*/
+
+
+.lenta {
+     display: flex;
+     justify-content: center;
+}
+
+.lenta-main {
+     overflow: hidden;
+}
+
+.lenta-main__img {
+     max-height: 500px;
+     object-fit: cover;
+     width: 100%;
+}
+
+
+
+
+/*доставка*/
+
+.delivery {
+     background: url('../img/zerna_niz.png') bottom -5% left repeat-x;
+     padding-bottom: 350px;
+}

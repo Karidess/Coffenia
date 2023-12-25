@@ -1,0 +1,105 @@
+.rega {
+     background: url('../img/fonglav2.png');
+     background-attachment: scroll;
+     background-repeat: repeat;
+     animation: slide 60s linear infinite;
+     
+}
+
+@keyframes slide {
+     0% {
+          background-position: 0% 0%;
+     }
+
+     50% {
+          background-position: 100% 0%;
+     }
+
+     100% {
+          background-position: 0% 0%;
+     }
+}
+
+.background-rega {
+     background: url('../img/zernaniz.png') bottom left repeat-x;
+     padding-bottom: 400px;
+     
+}
+
+.rega__title-text {
+     background: linear-gradient(rgb(255, 255, 255), #9198e500);
+     color: rgb(73, 33, 33);
+}
+
+.rega__title-text h2 {
+     padding-top: 120px;
+     text-align: center;
+     font-family: 'Cormorant Infant';
+     font-size: 50px;
+     padding-bottom: 30px;
+}
+
+.rega__title-text p {
+     margin: auto;
+     font-size: 20px;
+     max-width: 500px;
+     padding-bottom: 30px;
+}
+
+.rega-contenier {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 30px;
+}
+
+.rega-div{
+     padding: 40px 40px 20px 40px;
+     background-color: aliceblue;
+     border-radius: 20px;
+}
+
+.rega-contenier input {
+     padding: 10px 0;
+     margin: 10px 0 10px 0;
+     width: 400px;
+     font-size: 15px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     border: 0;    
+}
+
+.rega-contenier input { padding-left: 10px; }
+.rega-contenier input::placeholder { 
+     color: rgb(196, 209, 219); 
+     font-size: 14px;
+}
+
+.rega_input {
+     display: flex;
+     flex-direction: column;
+     padding: 10px 0;
+}
+
+.rega-button {
+     display: flex;
+     justify-content: center;
+}
+
+.rega-button button {
+     background-color: rgb(179, 210, 228);
+     border: 0;
+     cursor: pointer;
+     padding: 10px;
+     border-radius: 10px;
+     color: rgba(47, 13, 13, 1);
+     font-size: 17px;
+     transition: 0.5s;
+     margin-top: 20px;
+}
+
+.rega-button button:hover {
+     background-color: rgb(213, 232, 243);
+     color: rgb(107, 147, 170);
+}

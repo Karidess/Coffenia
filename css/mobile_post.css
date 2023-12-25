@@ -1,0 +1,412 @@
+@media (max-width: 651px) {
+
+     
+    .picture-post {
+        padding: 20px;
+        background-size: 120em;
+   }
+   
+   .picture-contenier {
+        background-size: 30em;
+   }
+   
+   .picture-header {
+        padding: 20px 20px;
+        border-radius: 20px 20px 0 0;
+        padding-bottom: 70px;
+   }
+   
+   .picture__creator-img {
+        width: 45px;
+        border-radius: 55px;
+        margin-top: 2px;
+   }
+   
+   .info-creator__text {
+        margin-left: 10px;
+   }
+   
+   .info-creator__text h4{
+        font-size: 18px;
+   }
+   
+   .info-creator__text p {
+        margin-top: 7px;
+        font-size: 14px;
+   }
+   
+   .picture-izbra-icon {
+        height: 45px;
+        width: 45px;
+   }
+   
+   .picture-footer {
+        padding: 20px;
+        border-radius: 0 0 19px 19px;   
+   }
+   
+   .picture-footer h3 {
+        font-size: 20px;
+        margin-left: 10px;
+   }
+   
+   .picture-com-icon {
+        height: 20px;
+        width: 20px;
+   }
+   
+   .picture-like-icon {
+        height: 15px;
+        width: 15px;
+   }
+   
+
+
+   .title-text {
+    font-size: 20px;
+    padding: 15px 30px;
+    }
+
+    .title-text h2{
+        padding: 0 10px;
+    }
+
+
+    .content__text-p {
+        font-size: 16px;
+    }
+
+    .content__title-text {
+        font-size: 18px;
+    }
+
+    .content-background {
+        background-size: 20em;
+    }
+
+    .text-img img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .similar-contenier li {
+        align-items: center;
+        width: 100%;
+    }
+
+    .unit-post {
+        border-radius: 20px;
+        width: 100%;
+        margin: 20px auto;
+    }
+   
+   
+   .unit-post__header {
+        border-radius: 20px 20px 0 0;
+        background-size: 15em;
+        padding: 5px;
+    }
+   
+   .unit-post__header-like-and-com { padding: 5px 5px 1px 5px; }
+   
+   .header-like-and-comm { font-size: 14px; }
+   
+   .like-icon, .com-icon {
+        height: 15px;
+        width: 15px;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+   
+    .com-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+   
+   .izbra-icon {
+        height: 20px;
+        width: 20px;
+   }
+   
+   .unit-post__title-text {
+        font-size: 22px;
+        margin: 50px 0 10px 10px;
+   }
+   
+   .unit-post__footer {
+        padding: 20px 10px;
+        border-radius: 0 0 20px 20px;
+   }
+   
+   .unit-post__text {
+        font-size: 18px;
+        margin-bottom: 20px;
+   }
+   
+   .unit-post__info-creator { font-size: 14px; }
+
+
+
+
+
+    
+    .unit-com {
+        width: 80%;
+        margin: 20px 30px;
+    }
+
+    .unit-com__title-text h4 {
+        font-size: 16px;
+    }
+
+    .unit-com__title-text p {
+        font-size: 14px;
+    }
+
+    .unit-com__text p {
+        font-size: 14px;
+    }
+
+    .unit-com__img {
+        width: 50px;
+    }
+
+    .answer-com {
+        margin-left: 10px;
+    }
+
+    .like-com p {
+        font-size: 15px;
+    }
+
+    .dislike-and-like img {
+        width: 18px;
+    }
+
+    .like-quantity {
+        font-size: 15px;
+    }
+
+
+    .commentaries {
+        background-size: 120em;
+        padding-bottom: 400px;
+    }
+    
+    .add-com {
+        margin: 0 30px;
+    }
+
+    .answer-add-com-contenier {
+        margin-left: 0;
+    }
+     
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+
+
+
+
+
+
+    .picture-header {
+        padding: 20px 20px;
+        border-radius: 20px 20px 0 0;
+        padding-bottom: 130px;
+   }
+
+
+   .title-text {
+    font-size: 24px;
+    padding: 15px 30px;
+    }
+
+    .title-text h2{
+        padding: 0 10px;
+    }
+
+
+    .content__text-p {
+        font-size: 18px;
+    }
+
+    .content__title-text {
+        font-size: 20px;
+    }
+
+    .content-background {
+        background-size: 20em;
+    }
+
+    .text-img img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .similar-contenier li {
+        align-items: center;
+        justify-content: center;
+        width: 29%;
+        margin: 10px 10px;
+    }
+
+    .unit-post {
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+   
+   
+    .unit-post__header {
+        border-radius: 20px 20px 0 0;
+        background-size: 15em;
+        padding: 5px;
+    }
+   
+    .unit-post__header-like-and-com { padding: 5px 5px 1px 5px; }
+
+    .header-like-and-comm { font-size: 14px; }
+     
+     .like-icon, .com-icon {
+          height: 15px;
+          width: 15px;
+          margin-right: 5px;
+          margin-left: 10px;
+     }
+     
+     .com-icon {
+          width: 18px;
+          height: 18px;
+     }
+     
+     
+     .izbra-icon {
+          height: 20px;
+          width: 20px;
+     }
+     
+     .unit-post__title-text {
+          font-size: 22px;
+          margin: 50px 0 20px 10px;
+     }
+     
+     .unit-post__footer {
+          padding: 20px 10px;
+          border-radius: 0 0 20px 20px;
+     }
+     
+     .unit-post__text {
+          font-size: 18px;
+          margin-bottom: 20px;
+     }
+     
+     .unit-post__info-creator { font-size: 14px; }
+
+
+
+
+
+
+    .unit-com {
+        width: 80%;
+        margin: 20px 30px;
+    }
+
+    .unit-com__title-text h4 {
+        font-size: 16px;
+    }
+
+    .unit-com__title-text p {
+        font-size: 14px;
+    }
+
+    .unit-com__text p {
+        font-size: 14px;
+    }
+
+    .unit-com__img {
+        width: 50px;
+    }
+
+    .answer-com {
+        margin-left: 10px;
+    }
+
+    .like-com p {
+        font-size: 15px;
+    }
+
+    .dislike-and-like img {
+        width: 18px;
+    }
+
+    .like-quantity {
+        font-size: 15px;
+    }
+
+
+    .commentaries {
+        background-size: 120em;
+        padding-bottom: 400px;
+    }
+    
+    .add-com {
+        margin: 0 30px;
+    }
+
+    .answer-add-com-contenier {
+        margin-left: 0;
+    }
+
+
+}
+
+@media (max-width: 1230px) and (min-width: 1001px){
+     
+
+
+
+
+
+
+    .unit-com__title-text h4 {
+        font-size: 20px;
+    }
+
+    .unit-com__title-text p {
+        font-size: 18px;
+    }
+
+    .unit-com__text p {
+        font-size: 18px;
+    }
+
+    .unit-com__img {
+        width: 50px;
+    }
+
+
+    .like-com p {
+        font-size: 18px;
+    }
+
+    .dislike-and-like img {
+        width: 18px;
+    }
+
+    .like-quantity {
+        font-size: 18px;
+    }
+
+
+    .commentaries {
+        background-size: 120em;
+        padding-bottom: 400px;
+    }
+
+}

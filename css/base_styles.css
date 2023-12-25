@@ -1,0 +1,255 @@
+
+@import url('base_styles_navigacia.css');
+@import url('base_styles_rega-and-auto.css');
+
+body {
+     background-color: rgba(222, 232, 242, 1);
+     cursor: default;
+}
+
+
+html { scroll-behavior: smooth; font-family: 'Noto Serif TC';  }
+::selection { background-color: rgba(125, 195, 255, 0.663); }
+
+/*Верхняя панель/хеадер*/
+
+header {
+     background: linear-gradient(0.25turn, rgba(67, 102, 132, 1), rgba(124, 171, 195, 1));
+     position: sticky;
+     top: 0;
+     z-index: 2;
+}
+
+.header-main {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+     max-width: 1200px;
+     margin: auto;
+     padding: 0 90px;
+}
+
+.header__logo-and-nav {
+     display: flex;
+     align-items: center;
+}
+
+.header__button-nav {
+     background: linear-gradient(rgb(202, 227, 244), rgb(150, 183, 197) 90%);
+     height: 50px;
+     border: 0px;
+     border-radius: 10px;
+     margin: auto;
+     margin-left: 10px;
+     transition: transform 0.3s;
+     cursor: pointer;
+}
+
+.header__button-nav:hover {
+     /*border-bottom: solid 1px rgb(255, 255, 255);*/
+     background: linear-gradient(rgb(245, 252, 255), rgb(217, 243, 255) 90%);
+     transform: scale(110%);
+}
+
+.logo {
+     margin-left: 20px;
+     height: 80px;
+}
+
+.header__button-circle {
+     background: linear-gradient(rgb(228, 241, 250), rgb(197, 224, 236) 90%);
+     width: 50px;
+     height: 50px;
+     border-radius: 50px;
+     border: 0px;
+     padding: 5px;
+     margin: auto;
+     margin-right: 10px;
+     transition: transform 0.1s;
+     cursor: pointer;
+}
+
+.header__button-circle-search { margin-right: 0;  }
+
+.header__button-circle:hover {
+     background: linear-gradient(rgb(245, 252, 255), rgb(217, 243, 255) 90%);
+     transform: scale(110%);
+}
+
+.header-icons { display: flex; }
+
+.mini-nav {
+     margin: auto;
+     max-width: 1200px;
+     font-size: 20px;
+     display: flex;
+     justify-self: center;
+     color: rgba(47, 13, 13, 1);
+     
+}
+
+.mini-nav p {
+     padding: 20px 30px;
+     text-decoration: none;
+}
+
+.mini-nav a {
+     text-decoration: underline;
+     color: rgba(47, 13, 13, 1);
+     transition: 0.2s;
+}
+
+.mini-nav a:hover {
+     color: rgb(169, 90, 90);
+}
+
+/*иконки*/
+
+.icon-profile, .icon-corzina {
+     fill: rgb(45, 47, 66);
+     margin: auto;
+     height: 80%;
+}
+
+.icon-search {
+     fill: rgb(45, 47, 66);
+     height: 30px;     
+}
+
+.icon-nav {
+     fill: rgb(45, 47, 66);
+     margin: auto;
+}
+
+.icons-nav {
+     display: flex;
+     margin: 5px;
+     padding-right: 10px;
+     justify-content: center;
+}
+
+.icon-vk {
+     height: 50px;
+     width: 50px;
+     fill: rgb(63, 79, 115);
+     cursor: pointer;
+     transition: 0.5s;
+     margin-top: 20px;
+}
+
+.icon-vk:hover {
+     fill: rgb(134, 159, 218);
+}
+
+.icon-vk + .icon-vk {
+     margin-left: 20px;
+}
+
+
+
+/*поиск*/
+
+.search {
+     display: flex;
+     background-color: aliceblue;
+     padding: 0px;
+     margin-right: 10px;
+     border-radius: 50px;
+}
+
+.search-text::placeholder {
+     font-family: 'Noto Serif TC';
+	color: rgb(139, 152, 164);
+}
+
+.search-text {
+     border: none;
+     background: none;
+     outline: none;
+     padding: 0;
+     width: 0;
+     margin: 0;
+     color: rgb(72, 80, 86);
+     transition: 0.4s;
+}
+
+.search:hover > .search-text {
+     width: 240px;
+     margin: 0 20px;
+}
+
+/*футер*/
+
+footer { 
+     background: linear-gradient(0.5turn, rgba(106, 62, 53, 0.525), rgb(116, 74, 66)),
+     url('../img/fonzerna.png'); 
+}
+
+.footer-main {
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 0 50px;
+}
+
+.footer-main__container {
+     margin-top: 40px;
+     margin-bottom: 10px;
+     font-size: 28px;
+}
+
+.footer-main__container h3 { color: rgb(223, 182, 178); }
+
+.footer-main__container b { 
+     color: rgba(255, 246, 246, 1); 
+} 
+
+.footer-main__container p { 
+     padding-bottom: 40px;
+     color: rgb(223, 182, 178);
+     line-height: 140%;
+}
+
+.footer-main__container + .footer-main__container { margin-left: 100px; }
+
+.footer-main__title-text {
+     font-size: 28px;
+     padding-top: 50px;
+     padding-bottom: 30px;
+}
+
+.footer-icons {
+     display: flex;
+     justify-content: space-between;
+}
+
+.footer-icon__element {
+     height: 70px;
+     width: 70px;
+     fill: rgb(223, 182, 178);
+     cursor: pointer;
+     transition: 0.5s;
+}
+
+.footer-icon__element:hover {
+     fill: rgb(234, 204, 201);
+}
+
+
+@font-face {
+	font-family: 'Cormorant Infant'; 
+	src: url('../fonts/Cormorant_Infant/CormorantInfant-Bold.ttf'); 
+}
+
+@font-face {
+	font-family: 'Noto Serif TC Bold'; 
+	src: url('../fonts/Noto Serif TC/NotoSerifTC-Bold.otf');
+     font-weight: bold; 
+}
+
+@font-face {
+	font-family: 'Noto Serif TC'; 
+	src: url('../fonts/Noto Serif TC/NotoSerifTC-Light.otf'); 
+}

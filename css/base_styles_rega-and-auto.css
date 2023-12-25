@@ -1,0 +1,130 @@
+.modal {
+     position: fixed;
+     top: 0;
+     left: 0;
+     opacity: 0;
+     visibility: hidden;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.325);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     z-index: 6;
+     transition: opacity 0.5s;
+}
+
+.modal-auto_container {
+     background: url('../img/regafon.png'),
+     rgba(222, 232, 242, 1);
+     /*background-color: rgb(255, 255, 255);*/
+     display: flex;
+     max-width: 400px;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 15px;
+     cursor: default;
+     color: rgb(8, 35, 55);
+}
+
+.modal-auto_title {
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     width: 400px;
+     justify-content: space-between;
+     border-radius: 15px 15px 0 0;
+     background: linear-gradient(0.25turn, rgb(110, 146, 164), rgba(255, 255, 255, 0));
+}
+
+.modal-auto_container h4:hover {
+     color: rgb(70, 106, 116);
+}
+
+.modal-auto_container h3 {
+     font-size: 25px;
+     padding: 20px;
+     color: rgb(22, 40, 49);
+}
+
+.modal-auto_form {
+     margin: 25px;
+     padding: 20px;
+     /*background-color: rgba(255, 255, 255);*/
+     border-radius: 15px;
+     color:rgb(85, 108, 133);
+     font-size: 20px;
+     background-color: aliceblue;
+}
+
+.modal-auto_form input {
+     padding: 10px 0;
+     margin: 10px 0 20px 0;
+     width: 300px;
+     font-size: 15px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     border: 0;     
+}
+
+.modal-auto_form input { padding-left: 10px; }
+.modal-auto_form input::placeholder { 
+     color: rgb(196, 209, 219); 
+     font-size: 14px;
+}
+
+.modal-krestik {
+     height: 25px;
+     width: 25px;
+     margin-right: 20px;
+     cursor: pointer;
+     fill: #350c0c;
+}
+
+.modal-button {
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.modal-button button {
+     background-color: rgb(179, 210, 228);
+     border: 0;
+     cursor: pointer;
+     padding: 10px;
+     border-radius: 10px;
+     color: rgba(47, 13, 13, 1);
+     font-size: 17px;
+     transition: 0.5s;
+}
+
+.modal-button button:hover {
+     background-color: rgb(213, 232, 243);
+     color: rgb(107, 147, 170);
+}
+
+.modal-text {
+     text-decoration: none;
+     font-size: 18px;
+     color: rgb(52, 106, 133);
+     transition: 0.2s;
+}
+
+.modal-text:hover { color: rgb(79, 160, 201); }
+
+.modal-text-one {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+     font-size: 16px;
+}
+
+.modal-text-two a{
+     color: rgb(52, 106, 133);
+     cursor: pointer;
+     transition: 0.2s;
+}
+
+.modal-text-two a:hover { color: rgb(79, 160, 201); }

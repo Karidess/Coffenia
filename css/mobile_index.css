@@ -1,0 +1,213 @@
+@media (max-width: 550px) {
+     
+     .welcome-main  { 
+          background: none; 
+          height: 650px;
+     }
+     .welcome-main__text { 
+          margin: 9em 70px 0 3em; 
+     }
+
+     .welcome-main__title-text {
+          font-size: 35px; 
+     }
+
+     .welcome-main__paragraph { 
+          margin-top: 30px; 
+          font-size: 20px;
+     }
+
+     .welcome-backgroud { background-size: 100em; }
+     .about_us { background-size: 100em; }
+     .menu { background-size: 100em; }
+
+     .welcome { animation: slide 100s linear infinite; }
+
+     .about_us-main, .menu-main, .delivery-main {
+          padding-left: 3em;
+     }
+
+     .delivery {
+          background-size: 100em;
+          padding-bottom: 150px;
+     }
+
+     .about_us-main__title-text {
+          font-size: 27px;
+          padding: 3em 0 1.5em 0;
+     }
+
+     .about_us-main__paragraph {
+          font-size: 20px;
+          padding: 0 2em 2em 0;
+     }
+
+     .menu-main__title-text, .delivery-main__title-text {
+          font-size: 27px;
+          margin: 1em 0 1.5em 0;
+     }
+     
+     .delivery-main__title-text {
+          margin: 0 0 1.5em 0;
+          padding-top: 2.5em;
+     }
+     
+     .menu-main__title-text {
+          margin-top: 1em;
+          padding-top: 5em;
+     }
+     
+     .menu-main__paragraph, .delivery-main__paragraph {
+          font-size: 20px;
+     }
+
+     .delivery-main__paragraph {
+          padding: 0 4em 8em 0;
+     }
+     
+}
+
+/*@media (max-width: 300px) {
+
+     .logo {
+          height: 60px;
+     }
+
+     .welcome-main__text {
+          margin-left: 2em;
+     }
+     .welcome-main__title-text { font-size: 30px; }
+     .welcome-main__paragraph { font-size: 20px; }
+
+     .about_us-main, .menu-main, .delivery-main {
+          padding-left: 40px;
+     }
+
+     .menu-main__title-text, .delivery-main__title-text,  .about_us-main__title-text {
+          font-size: 25px;
+     }
+
+     .menu-main__paragraph, .delivery-main__paragraph, .about_us-main__paragraph {
+          font-size: 15px;
+     }
+}*/
+
+@media (max-width: 1000px) and (min-width: 551px) {
+
+     .welcome { animation: slide 120s linear infinite; }
+
+     .welcome-backgroud { background-size: 100em; }
+     
+     .welcome-main  {
+          height: 620px;
+          background-position: top right -9em;
+          background-size: 30em;
+     }
+     .welcome-main__text { margin: 10em 25em 5em 5em; }
+     .welcome-main__title-text { font-size: 35px; }
+     .welcome-main__paragraph { font-size: 20px; }
+
+     .about_us { background-size: 100em; }
+     
+     .about_us-main__title-text {
+          font-size: 30px;
+          padding: 2.5em 0 1em 0;
+     }
+     
+     .about_us-main__paragraph { font-size: 20px; }
+
+     .menu { background-size: 100em; }
+     
+     .menu-main__title-text, .delivery-main__title-text {
+          color: rgba(76, 9, 9, 1);
+          font-size: 30px;
+          margin: 5em 0 1em 0;
+     }
+     
+     .menu-main__title-text {
+          margin-top: 1em;
+          padding-top: 5em;
+     }
+     
+     .menu-main__paragraph, .delivery-main__paragraph {
+          font-size: 20px;
+          padding: 0 4em 4em 0;
+          max-width: 800px;
+     }
+
+     .delivery-main__title-text {
+          margin: 0 0 1em 0;
+          padding-top: 1.5em;
+     }
+     
+     .delivery {
+          background-size: 100em;
+          padding-bottom: 250px;
+     }
+
+     .about_us-main, .menu-main, .delivery-main {
+          padding-left: 5em;
+     }
+}
+
+@media (max-width: 1200px) and (min-width: 1001px){
+     .welcome-main {
+          background-position: top right -7em;
+          background-size: 32em;
+          height: 600px;
+     }
+     
+     .welcome-backgroud { background-size: 100em; }
+     .welcome-main__text { margin: 10em 30em 5em 9em; }
+     .welcome-main__title-text { font-size: 38px; }
+     .welcome-main__paragraph { font-size: 24px; }
+
+     .about_us { background-size: 120em; }
+     
+     .about_us-main__title-text {
+          font-size: 35px;
+          padding: 2.5em 0 1em 0;
+     }
+
+     .about_us-main__paragraph { font-size: 25px; }
+
+     .menu { background-size: 120em; }
+     
+     .menu-main__title-text, .delivery-main__title-text {
+          color: rgba(76, 9, 9, 1);
+          font-size: 35px;
+          margin: 5em 0 1em 0;
+     }
+     
+     .menu-main__title-text {
+          margin-top: 1em;
+          padding-top: 5em;
+     }
+     
+     .menu-main__paragraph, .delivery-main__paragraph {
+          font-size: 25px;
+          max-width: 800px;
+     }
+
+     .delivery-main__title-text {
+          padding-top: 1em;
+          margin-top: 0;
+     }
+     
+     .delivery {
+          background-size: 120em;
+          padding-bottom: 250px;
+     }
+}
+
+@media (max-width: 1650px) and (min-width: 1201px){
+     .welcome-main  {
+          background-position: top right;
+          background-size: 40em;
+          height: 720px;
+     }
+     
+     .welcome-backgroud { background-size: 120em; }
+     .welcome-main__text { margin: 10em 30em 5em 9em; }
+
+}

@@ -1,0 +1,358 @@
+.user-info {
+     background: url('../img/cartfon.png');
+     background-size: 100%;
+}
+
+.user-info-contenier {
+     display: flex;
+     max-width: 1100px;
+     margin: auto;
+     justify-content: center;
+     padding: 30px;
+}
+
+.user-avatar img {
+     height: 320px;
+     border-radius: 100%;
+     border: 4px solid rgb(255, 234, 234);
+     cursor: pointer;
+}
+
+.background-title-text {
+     background: linear-gradient(0.25turn, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+     width: 100%;
+}
+
+.user-info__title-text {
+     font-size: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     justify-self: center;
+     margin: auto;
+     max-width: 1200px;
+}
+
+.user-info__title-text h2 {
+     padding: 20px 30px;
+     color: rgba(47, 13, 13, 1);
+}
+
+.user-info__title-text button {
+     background: rgba(222, 232, 242, 1);
+     color: rgba(47, 13, 13, 1);
+     padding: 16px;
+     border: 0;
+     font-size: 18px;
+     border-radius: 15px;
+     margin: 5px;
+     transition: 0.5s;
+     cursor: pointer;
+}
+
+.user-info__title-text button:hover {
+     background: rgb(236, 246, 255);
+     color: rgb(67, 22, 22);
+}
+
+.user-info-data__title-text {
+     background: rgba(222, 232, 242, 1);
+     margin: 0 50px;
+     padding: 20px 30px;
+     font-size: 25px;
+     font-weight: bold;
+     border-radius: 20px 20px 0 0;
+     width: 300px;
+}
+
+.user-info-data__text {
+     background: #fff;
+     margin: 0 50px;
+     padding: 20px 30px;
+     font-size: 18px;
+     border-radius: 0 0 20px 20px;
+     line-height: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+}
+
+.user-info-data__text span {
+     font-weight: bold;
+     padding-right: 20px;
+     font-size: 18px;
+}
+
+.user-info__button {
+     background: rgba(222, 232, 242, 1);
+     border: 0;
+     margin-top: 20px;
+     font-size: 15px;
+     border-radius: 10px;
+     color: rgba(47, 13, 13, 1);
+     padding: 10px; 
+     align-self: center;
+     cursor: pointer;
+     transition: 0.5s;
+}
+
+.user-info__button:hover {
+     background: rgb(236, 246, 255);
+     color: rgb(67, 22, 22);
+}
+
+
+/*фавориты*/
+
+.favourites {
+     background: url('../img/article.png') repeat-x;
+}
+
+.tovars, .posts {
+     max-width: 1100px;
+     display: flex;
+     margin: auto;
+}
+
+/*одна штучка товара*/
+
+.chapter__product {
+     background: rgba(251, 252, 254, 1);
+     padding: 20px 20px 5px 10px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 30px;
+     margin: 20px;
+     transition: 0.25s;
+     width: 190px;
+}
+
+.chapter__product:hover {
+     transform: scale(105%);
+}
+
+.product__name {
+     font-size: 20px;
+     color: rgba(47, 13, 13, 1);
+}
+
+.product__info {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+}
+
+.product-mass {
+     color: rgba(109, 127, 146, 1);
+     font-size: 14px;
+}
+
+.product-price {
+     color: rgba(102, 39, 25, 1);
+     font-size: 28px;
+}
+
+.product_button {
+     height: 55px;
+}
+
+.product_button button{
+     background-color: rgba(196, 212, 228, 1);
+     color: rgba(47, 13, 13, 1);
+     border-radius: 10px;
+     border: 0;
+     padding: 10px;
+     font-size: 20px;
+     cursor: pointer;
+     transition: 0.25s;
+}
+
+.product_button button:hover {
+     transform: scale(110%);
+     background-color: rgb(210, 224, 237);
+}
+
+.product__img {
+     width: 150px;
+}
+
+/*штучка блога*/
+
+.unit-post {
+     max-width: 280px;
+     border-radius: 30px;
+     margin: 30px 10px 30px 10px;
+     cursor: pointer;
+     transition: 0.5s;
+     width: 315px;
+}
+
+.unit-post:hover {
+     transform: scale(110%);
+}
+
+.unit-post__header {
+     background: url('../img/cart_1.png');
+     background-size: 100%;
+     border-radius: 20px 20px 0 0;
+     padding: 10px;
+}
+
+.unit-post__header-like-and-com {
+
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     padding: 15px 10px 10px 10px;
+}
+
+.unit-post__header-like-and-com p, .unit-post__title-text h4 {
+     color: white;
+}
+
+.header-like-and-comm {
+     display: flex;
+     align-items: center;
+     font-size: 16px;
+     color: white;
+}
+
+.like-icon, .com-icon {
+     height: 16px;
+     width: 16px;
+     fill: aliceblue;
+     margin-right: 5px;
+     margin-left: 10px;
+}
+
+.com-icon {
+     width: 20px;
+     height: 20px;
+}
+
+.header-like-and-comm img {
+     height: 15px;
+     margin-right: 5px;
+     margin-left: 10px;
+}
+
+.izbra-icon {
+     height: 25px;
+     width: 25px;
+     fill: white;
+}
+
+.unit-post__title-text {
+     color: white;
+     font-size: 25px;
+     margin: 70px 0 10px 20px;
+}
+
+.unit-post__footer {
+     background-color: white;
+     padding: 20px 30px;
+     border-radius: 0 0 20px 20px;
+     color: rgba(47, 13, 13, 1);
+}
+
+.unit-post__text {
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+
+.unit-post__info-creator {
+     display: flex;
+}
+
+.unit-post__info-creator p {
+     margin-left: 10px;
+     color: rgba(47, 13, 13, 0.67);
+}
+
+.recept {
+     background: url('../img/zerna_niz.png') bottom left repeat-x;
+     padding-bottom: 600px;
+}
+
+.rec-contenier {
+     background: #fff;
+     display: flex;
+     border-radius: 20px;
+     padding: 20px;
+     max-width: 1000px;
+     margin: 40px auto;
+     flex-direction: column;
+}
+
+.rec-contenier__title-text {
+     font-size: 25px;
+     margin-left: 10px;
+     display: flex;
+     align-items: center;
+}
+
+.rec-contenier__title-text a {
+     color: black;
+     text-decoration: underline;
+     transition: 0.25s;
+}
+
+.rec-contenier__title-text a:hover {
+     color: rgb(144, 70, 70);
+}
+
+.rec-contenier__text {
+     margin-left: 10px;
+     margin-top: 15px;
+     font-size: 20px;
+}
+
+.recp-number {
+     background-color: rgba(67, 102, 132, 1);
+     border-radius: 30px;
+     padding: 5px 12px;
+     margin-right: 10px;
+     color: rgba(251, 252, 254, 1);
+}
+
+.rec-contenier__button-1, .rec-contenier__button-2 {
+     background-color: rgba(222, 232, 242, 1);
+     border: none;
+     border-radius: 10px;
+     padding: 10px 20px;
+     font-size: 15px;
+     cursor: pointer;
+     transition: 0.5s;
+}
+
+.rec-contenier__button-2 {
+     margin-left: 20px;
+}
+
+.rec-contenier__buttons {
+     margin-top: 20px;
+}
+
+.rec-contenier__button-1:hover, .rec-contenier__button-2:hover {
+     background-color: rgb(231, 240, 249);
+}
+
+.content__title-text {
+     max-width: 1200px;
+     display: flex;
+     margin: auto;
+     padding: 15px;
+     font-size: 25px;
+}
+
+.content__title-text h3 {
+     padding-left: 25px;
+     
+}
+
+.content__background-title-text {
+     background: linear-gradient(0.25turn, rgb(241, 249, 255), rgba(255, 255, 255, 0));
+     width: 100%;
+}
